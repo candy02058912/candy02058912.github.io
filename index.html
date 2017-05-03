@@ -17,6 +17,7 @@ permalink: /
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
+    <script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-50120.js"></script>
     <body>
         <div class="content">
             {% if site.front_img %}
@@ -27,7 +28,7 @@ permalink: /
                 <img src="{{ site.avatar_img_path }}" id="avatar">
             {% endif %}
 
-            <h1>{{ site.name }}</h1>
+            <h1 class="setofont">{{ site.name }}</h1>
             <h3>{{ site.description }}</h3>
 
                 <ul>
