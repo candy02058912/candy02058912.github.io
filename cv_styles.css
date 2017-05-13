@@ -47,6 +47,7 @@ a:hover {
   margin: 0 auto;
   font-family: "Source Code Pro", monospace;
   font-size: 50px;
+  font-weight: normal;
   animation: 8s typing steps(16, end), 0.5s text-blink step-end infinite;
   width: 16ch;
   white-space: nowrap;
