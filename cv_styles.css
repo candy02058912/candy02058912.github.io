@@ -4,10 +4,10 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500);
 @keyframes change-text {
   0%, 55%, 100% {
-    transform: translateY(-45%);
+    transform: translateY(-50%);
   }
   5%, 50% {
-    transform: translateY(-95%);
+    transform: translateY(-100%);
   }
 }
 @keyframes typing {
@@ -72,7 +72,7 @@ a:hover {
 
 .name {
   margin-top: 10px;
-  height: 52px;
+  height: 50px;
   overflow: hidden;
 }
 @media screen and (max-width: 550px) {
@@ -88,8 +88,7 @@ a:hover {
   animation: 8s change-text linear infinite;
 }
 .name ul li {
-  padding-top: 5px;
-  line-height: 52px;
+  line-height: 50px;
 }
 
 .social ul {
